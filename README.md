@@ -4,7 +4,7 @@
 [![Tab System](https://img.youtube.com/vi/ID/0.jpg)](https://www.youtube.com/watch?v=ID)
 
 ## Setup
-For the setup, add this script to its own GameObject, and child it to Canvas. And then, depending on how many tabs you want, you'll need to create that many Buttons and additional Canvases.
+For the setup, add this script to its own `GameObject`, and child it to `Canvas`. And then, depending on how many tabs you want, you'll need to create that many `Buttons` and additional `Canvases`.
 
 ## Code
 I've provided a sample project, but this is the script in its entirety.
@@ -112,7 +112,7 @@ The script tracks a single active Canvas by listening to the `OnClick` event for
 
 ## Important Bits
 
-This code is where the connection to Click > Open logic is made.
+This code is where the connection to `Click > Open` logic is made.
 ```
     foreach (Tab tab in tabs)
         tab.button.onClick.AddListener(() => Open(tab));
