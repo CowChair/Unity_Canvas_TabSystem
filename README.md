@@ -1,7 +1,7 @@
 # Unity Tab System
 
 ## Video (YouTube - Tab System for Unity)
-[![Tab System](https://img.youtube.com/vi/ID/0.jpg)](https://www.youtube.com/watch?v=ID)
+[![Tab System](https://img.youtube.com/vi/5m-fYutY19k/0.jpg)](https://www.youtube.com/watch?v=5m-fYutY19k)
 
 ## Overview
 This project is a single script example for a Tab System in Unity. The script relies on a pure C# class for linking each Button and Canvas. The script itself will fill the collection of tabs based on the order of items in the Hierarchy.
